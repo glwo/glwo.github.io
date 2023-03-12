@@ -82,27 +82,28 @@
 
 })(jQuery);
 
-const welp = document.getElementById("welp-main")
-const fit = document.getElementById("fit-main")
-const space = document.getElementById("space-main")
+const gulp = document.getElementById("gulp-main")
+const dinner = document.getElementById("dinner-main")
+const breeze = document.getElementById("breeze-main")
 
-welp.addEventListener('mouseenter', () => {
-	document.getElementById("welp-modal").style.display = "block"
-})
-welp.addEventListener('mouseleave', () => {
-	document.getElementById("welp-modal").style.display = "none"
-})
 
-fit.addEventListener('mouseenter', () => {
-	document.getElementById("fit-modal").style.display = "block"
+gulp.addEventListener('mouseenter', () => {
+	document.getElementById("gulp-modal").style.display = "block"
 })
-fit.addEventListener('mouseleave', () => {
-	document.getElementById("fit-modal").style.display = "none"
+gulp.addEventListener('mouseleave', () => {
+	document.getElementById("gulp-modal").style.display = "none"
 })
 
-space.addEventListener('mouseenter', () => {
-	document.getElementById("space-modal").style.display = "block"
+breeze.addEventListener('mouseenter', () => {
+	document.getElementById("breeze-modal").style.display = "block"
 })
-space.addEventListener('mouseleave', () => {
-	document.getElementById("space-modal").style.display = "none"
+breeze.addEventListener('mouseleave', () => {
+	document.getElementById("breeze-modal").style.display = "none"
+})
+
+dinner.addEventListener('mouseenter', () => {
+	document.getElementById("dinner-modal").style.display = "block"
+})
+dinner.addEventListener('mouseleave', () => {
+	document.getElementById("dinner-modal").style.display = "none"
 })

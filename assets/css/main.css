@@ -112,7 +112,7 @@ input, select, textarea {
 .content a:hover{
 	text-decoration: underline;
 }
-#welp-modal{
+#gulp-modal{
 	display: none;
 	position: absolute;
 	background:  rgba(0, 0, 0, 0.6);
@@ -124,7 +124,7 @@ input, select, textarea {
 	transition: 0.4s;
 }
 
-#welp-modal a{
+#gulp-modal a{
 	text-decoration: none;
 	border-bottom: none;
 	font-size: 35px;
@@ -135,17 +135,17 @@ input, select, textarea {
 	width: 60px;
 	margin: 20px;
 }
-#welp-modal i{
+#gulp-modal i{
 	position: relative;
 	left: 6px;
 }
-#welp-modal a:hover{
-	background: green;
+#gulp-modal a:hover{
+	background: teal;
 }
-#welp-modal a:last-child{
+#gulp-modal a:last-child{
 	padding-right: 24px;
 }
-#fit-modal{
+#breeze-modal{
 	display: none;
 	position: absolute;
 	background:  rgba(0, 0, 0, 0.6);
@@ -156,11 +156,11 @@ input, select, textarea {
 	flex-direction: column;
 	transition: 0.4s;
 }
-#fit-modal i{
+#breeze-modal i{
 	position: relative;
 	left: 6px;
 }
-#fit-modal a{
+#breeze-modal a{
 	text-decoration: none;
 	border-bottom: none;
 	font-size: 35px;
@@ -171,13 +171,13 @@ input, select, textarea {
 	width: 60px;
 	margin: 20px;
 }
-#fit-modal a:hover{
-	background: green;
+#breeze-modal a:hover{
+	background: teal;
 }
-#fit-modal a:last-child{
+#breeze-modal a:last-child{
 	padding-right: 24px;
 }
-#space-modal{
+#dinner-modal{
 	display: none;
 	position: absolute;
 	background:  rgba(0, 0, 0, 0.6);
@@ -188,11 +188,11 @@ input, select, textarea {
 	flex-direction: column;
 	transition: 0.4s;
 }
-#space-modal i{
+#dinner-modal i{
 	position: relative;
 	left: 6px;
 }
-#space-modal a{
+#dinner-modal a{
 	text-decoration: none;
 	border-bottom: none;
 	font-size: 35px;
@@ -204,11 +204,11 @@ input, select, textarea {
 	margin: 20px;
 }
 
-#space-modal a:hover{
-	background: green;
+#dinner-modal a:hover{
+	background: teal;
 }
 
-#space-modal a:last-child{
+#dinner-modal a:last-child{
 	padding-right: 24px;
 }
 
@@ -2666,7 +2666,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: green;
+			background-color: teal;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2676,7 +2676,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: rgb(0, 164, 0) !important;
+				background-color: rgb(0, 164, 150) !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -3531,7 +3531,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: green;
+		background: teal;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
