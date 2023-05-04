@@ -230,9 +230,9 @@ input, select, textarea {
 	font-size: 30px;
 }
 .profile-pic{
-	width: 450px;
+	width: 375px;
 	height: 450px;
-	border-radius: 50%;
+	border-radius: 5%;
 	margin-right: 50px;
 	margin-bottom: 30px;
 }
